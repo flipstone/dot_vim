@@ -9,5 +9,5 @@ your current vim configuration. This will also try to compile the Command T plug
 need to have the same ruby available in your shell that was used when VIM was compiled.
 (e.g. `rvm use system`)
 
-    curl -L https://raw.github.com/flipstone/vim_dotfiles/master/install.sh | bash 
+    curl https://raw.github.com/flipstone/dot_vim/master/install.sh -o /tmp/fs_vim_install.sh && bash /tmp/fs_vim_install.sh
 
