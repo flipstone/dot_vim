@@ -14,7 +14,7 @@ esac
 
 cd ~
 rm -rf .vim
-git clone https://github.com/flipstone/vim_dotfiles.git .vim
+git clone https://github.com/flipstone/dot_vim.git .vim
 
 ln -sf ~/.vim/vimrc ~/.vimrc
 ln -sf ~/.vim/gvimrc ~/.gvimrc
