@@ -5,6 +5,8 @@ set shiftwidth=2
 set tabstop=2
 set expandtab
 set nowrap
+set incsearch
+set hlsearch
 
 silent !mkdir -p /tmp/vim
 set dir=/tmp/vim//
