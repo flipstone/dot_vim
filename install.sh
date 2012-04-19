@@ -20,6 +20,7 @@ ln -sf ~/.vim/vimrc ~/.vimrc
 ln -sf ~/.vim/gvimrc ~/.gvimrc
 
 cd ~/.vim/ruby/command-t
-ruby extconf.rb
+ruby extconf.rb > command-t-build.out
+make >> command-t-build.out
 
 echo "Flipstone VIM Files installed!"

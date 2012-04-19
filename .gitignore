@@ -2,3 +2,4 @@
 .netrwhist
 *.o
 *.bundle
+command-t-build.out
