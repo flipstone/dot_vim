@@ -1,5 +1,8 @@
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>nr :NERDTree<CR>
+map <silent> <LocalLeader>ch :HighlightColumnAdd<CR>
+map <silent> <LocalLeader>co :HighlightColumnOne<CR>
+map <silent> <LocalLeader>cc :HighlightColumnOff<CR>
 set number
 set shiftwidth=2
 set tabstop=2
