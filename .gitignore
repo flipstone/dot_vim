@@ -3,3 +3,5 @@
 *.o
 *.bundle
 command-t-build.out
+ruby/command-t/Makefile
+ruby/command-t/mkmf.log
