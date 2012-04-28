@@ -1,4 +1,4 @@
-" ack.vim
+" column_highlight.vim
 "
 " Author: David Vollbracht <david@flipstone.com>
 " Version: 1.0 for Vim 7.3
