@@ -27,3 +27,11 @@ autocmd ColorScheme * highlight LineLengthError ctermbg=yellow guibg=gold4
 
 " Make ack reasonable
 let g:AckCmd = 'ack --ignore-dir=tmp --ignore-dir=log'
+set statusline=
+set statusline+=%<\                       " cut at start
+set statusline+=%-40f\                    " relative path
+set statusline+=%=                        " seperate between right- and left-aligned
+set statusline+=%1*%y%*%*\                " file type
+set statusline+=%10(L(%l/%L)%)\           " line
+set statusline+=%2(C(%v/125)%)\           " column
+
