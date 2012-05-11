@@ -16,6 +16,9 @@ set dir=/tmp/vim//
 filetype plugin indent on
 syntax on
 
+" Highlight hamlc as haml
+au BufRead,BufNewFile *.hamlc set ft=haml
+
 " Highlight trailing whitespace
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
 autocmd BufRead,InsertLeave * match ExtraWhitespace /\s\+$/
