@@ -42,3 +42,9 @@ set statusline+=%1*%y%*%*\                " file type
 set statusline+=%10(L(%l/%L)%)\           " line
 set statusline+=%2(C(%v/125)%)\           " column
 
+" Make Command-T Work in terminal
+if &term =~ "xterm" || &term =~ "screen"
+  let g:CommandTCancelMap     = ['<ESC>', '<C-c>']
+  let g:CommandTSelectNextMap = ['<C-n>', '<C-j>', '<ESC>OB']
+  let g:CommandTSelectPrevMap = ['<C-p>', '<C-k>', '<ESC>OA']
+endif
