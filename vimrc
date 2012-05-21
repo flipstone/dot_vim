@@ -1,3 +1,4 @@
+set t_Co=256
 colorscheme vividchalk
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>nr :NERDTree<CR>
