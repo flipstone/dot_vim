@@ -27,7 +27,11 @@ function! s:Spin()
   call system("spin push " . s:files)
 endfunction
 
+augroup Spin
+
 command! -nargs=0 SpinAdd :call s:SpinAddCurrent()
 command! -nargs=0 SpinClear :call s:SpinClear()
 command! -nargs=0 Spin :call s:Spin()
+command! -nargs=0 AutoSpin :autocmd Spin BufWritePost * Spin
+command! -nargs=0 NoAutoSpin :autocmd! Spin BufWritePost *
 
