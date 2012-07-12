@@ -5,7 +5,7 @@ map <silent> <LocalLeader>nr :NERDTree<CR>
 map <silent> <LocalLeader>ch :HighlightColumnAdd<CR>
 map <silent> <LocalLeader>co :HighlightColumnOne<CR>
 map <silent> <LocalLeader>cc :HighlightColumnOff<CR>
-map <silent> <LocalLeader>p :CtrlP<CR>
+map <silent> <LocalLeader>a :CtrlP<CR>
 " don't manage ctrlp working directory
 let g:ctrlp_working_path_mode = 0
 set number
