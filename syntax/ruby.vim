@@ -18,7 +18,7 @@ if has("folding") && exists("ruby_fold")
   setlocal foldmethod=syntax
 endif
 
-syn cluster rubyNotTop contains=@rubyExtendedStringSpecial,@rubyRegexpSpecial,@rubyDeclaration,rubyConditional,rubyExceptional,rubyMethodExceptional,rubyTodo
+syn cluster rubyNotTop contains=@rubyExtendedStringSpecial,@rubyRegexpSpecial,@rubyDeclaration,rubyConditional,rubyExceptional,rubyMethodExceptional,rubyTodo,@rubyNiceOperatorPart
 
 if exists("ruby_space_errors")
   if !exists("ruby_no_trail_space_error")

@@ -15,6 +15,7 @@ set expandtab
 set nowrap
 set incsearch
 set hlsearch
+let g:ruby_operators = 1
 
 silent !mkdir -p /tmp/vim
 set dir=/tmp/vim//
