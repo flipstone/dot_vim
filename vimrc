@@ -8,6 +8,8 @@ map <silent> <LocalLeader>cc :HighlightColumnOff<CR>
 map <silent> <LocalLeader>a :CtrlP<CR>
 " don't manage ctrlp working directory
 let g:ctrlp_working_path_mode = 0
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=40
 set number
 set shiftwidth=2
 set tabstop=2
