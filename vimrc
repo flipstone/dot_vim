@@ -23,6 +23,7 @@ silent !mkdir -p /tmp/vim
 set dir=/tmp/vim//
 filetype plugin indent on
 syntax on
+autocmd BufEnter * :syntax sync minlines=500
 
 " Highlight hamlc as haml
 au BufRead,BufNewFile *.hamlc set ft=haml
